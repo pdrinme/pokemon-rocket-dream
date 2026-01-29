@@ -1,5 +1,6 @@
 import './App.css'
 
+
 function App() {
 
   return (
@@ -11,7 +12,7 @@ function App() {
       <div class="text-end grid gap-2 pr-3">
         <a href="whoheknow">Quem nos somos?</a>
         <a href="cause">Nossa causa</a>
-        <a class="">Juntisse a nos</a>
+        <a class="comewithus">Juntisse a nos</a>
       </div>
     </header>
     <body class='bg-gray-800'>
@@ -36,6 +37,12 @@ function App() {
               <iframe class="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/OHCarmKeBTw?si=AdZuTIUxq5cJcwec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             </div>
+          </div>
+        </section>
+        <section class="comewithus p-2">
+          <div class="bg-gray-600 justify-self-center min-w-min w-290 grid gap-2 rounded-2xl p-2">
+            <form>
+            </form>
           </div>
         </section>
     </body>
